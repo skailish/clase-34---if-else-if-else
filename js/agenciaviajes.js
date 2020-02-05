@@ -42,7 +42,7 @@ if (change) {
 
     } else if (optionChange === "personas") {
         people = Number(prompt("Cuántas personas viajan?"));
-    } else if (optionChange === "días") {
+    } else if (optionChange === "dias" || optionChange === "días") {
 
         days = Number(prompt("¿Por cuántos días?"));
     } else {
